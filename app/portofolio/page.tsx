@@ -32,9 +32,9 @@ const Portofolio = () => {
         <div className='bg-blue-800 w-full py-6 sm:py-0 sm:h-[500px] flex items-center justify-center gap-6 md:gap-[80px]'>
           <div className='wrapper flex sm:flex-row flex-col items-center justify-center md:gap-[80px] gap-6'>
             {workProcess.map((work) => (
-              <div className="flex flex-col items-center gap-4 after:content-['-----------'] after:text-white">
+              <div className="group flex flex-col items-center gap-4 after:content-['-----------'] after:text-white">
                 <div className='p-6 bg-white rounded-full'>
-                  <Image src={work.iconUrl} alt='' width={80} height={80} className='sm:w-[80px] w-[60px]' />
+                  <Image src={work.iconUrl} alt='' width={80} height={80} className='sm:w-[80px] w-[60px] group-hover:rotate-12' />
                 </div>
 
                 <p className='font-medium text-white text-[16px] md:text-[20px]'>
