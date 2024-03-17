@@ -1,32 +1,31 @@
 "use client"
 
 import { navLinks } from '@/constants/data'
+import Image from 'next/image'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import React from 'react'
+import SideNav from './SideNav'
+import NavLinks from './NavLinks'
 
 const Navbar = () => {
   const pathname = usePathname()
 
   return (
-    <div className='p-4 flex justify-between'>
-      <h1>Navbarr</h1>
+    <header className='border-b w-full bg-gray-50'>
+      <div className='wrapper flex items-center justify-between'>
+        <Link href="/" className=''>
+          <Image src="/assets/images/Logos.svg" alt='' width={160} height={160} />
+        </Link>
+        <div className='flex md:hidden'>
+          <SideNav />
+        </div>
 
-      <ul className='flex gap-4'>
-        {navLinks.map((nav) => {
-          const isActive = pathname === nav.path;
-
-          return (
-            <li key={nav.name} className={`${isActive && '!text-blue-800'} text-gray-400`}>
-              <Link href={nav.path}>
-                {nav.name}
-              </Link>
-            </li>
-          )
-        }
-        )}
-      </ul>
-    </div>
+        <div className='md:flex hidden'>
+          <NavLinks />
+        </div>
+      </div>
+    </header>
   )
 }
 

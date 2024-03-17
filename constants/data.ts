@@ -7,16 +7,16 @@ export const navLinks = [
     {
         name: 'About',
         path: '/about',
-        iconUrl: '/assets/icons/about-us.png'
+        iconUrl: '/assets/icons/about.png'
     },
     {
         name: 'Portofolio',
         path: '/portofolio',
-        iconUrl: '/assets/icons/portofolio.png'
+        iconUrl: '/assets/icons/port.png'
     },
     {
         name: 'Contact',
         path: '/contact',
-        iconUrl: '/assets/icons/contact-us.png'
+        iconUrl: '/assets/icons/contact.png'
     },
 ]
