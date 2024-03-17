@@ -20,3 +20,22 @@ export const navLinks = [
         iconUrl: '/assets/icons/contact.png'
     },
 ]
+
+export const workProcess = [
+    {
+        name: 'Analysis',
+        iconUrl: '/assets/icons/analysis.png'
+    },
+    {
+        name: 'Planning',
+        iconUrl: '/assets/icons/planning.png'
+    },
+    {
+        name: 'Sketching',
+        iconUrl: '/assets/icons/sketch.png'
+    },
+    {
+        name: 'Developing',
+        iconUrl: '/assets/icons/coding.png'
+    },
+]
