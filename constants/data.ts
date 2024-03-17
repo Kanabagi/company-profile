@@ -5,7 +5,7 @@ export const navLinks = [
         iconUrl: '/assets/icons/home.png'
     },
     {
-        name: 'About U',
+        name: 'About',
         path: '/about',
         iconUrl: '/assets/icons/about-us.png'
     },
@@ -15,7 +15,7 @@ export const navLinks = [
         iconUrl: '/assets/icons/portofolio.png'
     },
     {
-        name: 'Contact Us',
+        name: 'Contact',
         path: '/contact',
         iconUrl: '/assets/icons/contact-us.png'
     },
