@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <div className='p-4 flex justify-between'>
-      <h1>Navbar</h1>
+      <h1>Navbarr</h1>
 
       <ul className='flex gap-4'>
         {navLinks.map((nav) => {
