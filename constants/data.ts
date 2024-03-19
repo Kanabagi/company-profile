@@ -66,7 +66,7 @@ export const contactImg = [
 export const slidesData = [
   {
     id: 1,
-    image: '/assets/images/image1.jpg',
+    image: '/assets/images/image1.webp',
     title: 'Top',
     subtitle: 'Quality Development',
     desc: 'We provide the best quality website development for your business.',
@@ -74,7 +74,7 @@ export const slidesData = [
   },
   {
     id: 2,
-    image: '/assets/images/image2.jpg',
+    image: '/assets/images/image2.webp',
     title: 'Responsive',
     subtitle: 'Website With Best Tech Stack',
     desc: 'NextJS, Typescript, and Tailwind CSS are the best combination of tech stacks that we used.',
@@ -82,7 +82,7 @@ export const slidesData = [
   },
   {
     id: 3,
-    image: '/assets/images/image3.jpg',
+    image: '/assets/images/image3.webp',
     title: 'Professional',
     subtitle: 'UI/UX Designer',
     desc: 'We made it with the best user experience to make it user-friendly.',
@@ -102,7 +102,7 @@ export const cardsData = [
     desc: 'Utilizing advanced technology stacks for top-notch development solutions.',
   },
   {
-    image: '/assets/images/image3.jpg',
+    image: '/assets/images/image3.webp',
     title: 'User Interface',
     desc: 'Crafting intuitive interfaces for seamless user experiences.',
   },
