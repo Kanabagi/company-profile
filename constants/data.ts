@@ -134,3 +134,44 @@ export const clientsData = [
     alt: 'ph',
   },
 ];
+
+export const techData = [
+  {
+    image: '/assets/icons/nextjs.png',
+    alt: 'nextjs',
+    desc: 'Next.js is a flexible React framework that gives you building blocks tocreate fast, full-stack webapplications',
+  },
+  {
+    image: '/assets/icons/ts.svg',
+    alt: 'ts',
+    desc: 'TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.',
+  },
+  {
+    image: '/assets/icons/tailwind.jpg',
+    alt: 'tailwind',
+    desc: 'Tailwind CSS is a utility-first CSS framework that streamlines web development by providing a set of pre-designed utility classes',
+  },
+];
+
+export const serviceData = [
+  {
+    image: '/assets/icons/www.png',
+    title: 'Web Develoment',
+    desc: 'We provide custom website design & development, whenever you need a personal website, corporate website, product catalog or online store we here to help',
+  },
+  {
+    image: '/assets/icons/design.png',
+    title: 'UI/UX Development',
+    desc: 'We create digital product, web design, and branding',
+  },
+  {
+    image: '/assets/icons/api.png',
+    title: 'API Development',
+    desc: 'We have been providing top-quality API development',
+  },
+  {
+    image: '/assets/icons/brain.png',
+    title: 'Human Resource',
+    desc: 'We provide outsourcing personnel who have high skills for any development',
+  },
+];
