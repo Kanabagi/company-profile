@@ -1,7 +1,7 @@
-import { Button } from './ui/button';
+import { Button } from '../ui/button';
 
 type HeroProps = {
-  bgimage: string;
+  image: string;
   title: string;
   subtitle: string;
   desc: string;
@@ -9,9 +9,9 @@ type HeroProps = {
 };
 
 const HeroSection = (props: HeroProps) => {
-  const { bgimage, title, subtitle, desc, buttondesc } = props;
+  const { image, title, subtitle, desc, buttondesc } = props;
   return (
-    <div className={`bg-cover w-full h-[620px]`} style={{ backgroundImage: `url(${bgimage})` }}>
+    <div className={`bg-cover w-full h-[620px]`} style={{ backgroundImage: `url(${image})` }}>
       <div className="pl-[200px] pt-[180px]">
         <h1 className="text-6xl text-blue-800 font-bold mb-4">{title}</h1>
         <h2 className="text-4xl text-gray-950 max-w-[300px] mb-4">{subtitle}</h2>
