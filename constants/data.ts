@@ -92,12 +92,12 @@ export const slidesData = [
 
 export const cardsData = [
   {
-    image: '/assets/images/coding.jpg',
+    image: '/assets/images/coding.webp',
     title: 'Development',
     desc: 'We provide the highest quality website development services based on the tech stack we use.',
   },
   {
-    image: '/assets/images/react.jpg',
+    image: '/assets/images/react.webp',
     title: 'Tech Stack',
     desc: 'Utilizing advanced technology stacks for top-notch development solutions.',
   },
@@ -110,7 +110,7 @@ export const cardsData = [
 
 export const clientsData = [
   {
-    image: '/assets/images/adf.svg',
+    image: '/assets/images/stripchat.svg',
     alt: 'aff',
   },
   {
@@ -130,7 +130,7 @@ export const clientsData = [
     alt: 'fansly',
   },
   {
-    image: '/assets/images/ph.svg',
+    image: '/assets/images/pornhub.png',
     alt: 'ph',
   },
 ];

@@ -8,18 +8,8 @@ type ClientProps = {
 const Client = (props: ClientProps) => {
   const { image, alt } = props;
   return (
-    <div style={{ width: '300px', height: '150px', position: 'relative' }} className="flex justify-center">
-      <Image
-        src={image}
-        alt={alt}
-        height="0"
-        width="0"
-        style={{
-          width: '100%',
-          height: '100%',
-          objectFit: 'contain',
-        }}
-      />
+    <div className="flex justify-center lg:h-[150px] lg:w-[300px] md:h-[100px] md:w-[250px] h-[50px] w-[200px] relative">
+      <Image src={image} alt={alt} fill sizes="(100vw, 100vh)" className="object-fill" />
     </div>
   );
 };

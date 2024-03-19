@@ -3,15 +3,17 @@ import { serviceData } from '@/constants/data';
 
 const Services = () => {
   return (
-    <div className="flex flex-wrap justify-center mt-20 gap-y-14 gap-x-20">
+    <div className="flex flex-wrap justify-center lg:mt-20 mt-16 gap-y-14 gap-x-20">
       {serviceData.map((service, index) => (
         <div key={index} className="flex items-start gap-4">
-          <div className="flex items-center justify-center overflow-hidden h-[100px] w-[100px] bg-blue-700 rounded-full">
-            <Image src={service.image} alt={service.title} width={60} height={60} />
+          <div className="flex items-center justify-center overflow-hidden lg:h-[100px] lg:w-[100px] h-[80px] w-[80px] bg-blue-700 rounded-full">
+            <div className="lg:w-[60px] lg:h-[60px] w-[50px] h-[50px] relative">
+              <Image src={service.image} alt={service.title} fill sizes="(100vw, 100vh)" className="object-cover" />
+            </div>
           </div>
-          <div className="max-w-xs">
-            <h3 className="text-xl font-bold">{service.title}</h3>
-            <p className="text-md">{service.desc}</p>
+          <div className="lg:max-w-[320px] max-w-[240px]">
+            <h3 className="lg:text-xl text-md font-bold">{service.title}</h3>
+            <p className="lg:text-md text-sm">{service.desc}</p>
           </div>
         </div>
       ))}

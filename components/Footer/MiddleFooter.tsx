@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 const MiddleFooter = () => {
   return (
@@ -12,10 +13,18 @@ const MiddleFooter = () => {
           latest technologies to deliver captivating solutions that drive results.
         </p>
         <div className="flex justify-center lg:justify-normal gap-6 mt-2">
-          <Image src="/assets/icons/facebook.png" alt="sample" width={30} height={30} />
-          <Image src="/assets/icons/instagram.png" alt="sample" width={30} height={30} />
-          <Image src="/assets/icons/twitter.png" alt="sample" width={30} height={30} />
-          <Image src="/assets/icons/linkedin.png" alt="sample" width={30} height={30} />
+          <Link href={'https://pornhub.com'} target="_blank">
+            <Image src="/assets/icons/facebook.png" alt="sample" width={30} height={30} className="cursor-pointer transition duration-300 ease-in-out hover:scale-110" />
+          </Link>
+          <Link href={'https://pornhub.com'} target="_blank">
+            <Image src="/assets/icons/instagram.png" alt="sample" width={30} height={30} className="cursor-pointer transition duration-300 ease-in-out hover:scale-110" />
+          </Link>
+          <Link href={'https://pornhub.com'} target="_blank">
+            <Image src="/assets/icons/twitter.png" alt="sample" width={30} height={30} className="cursor-pointer transition duration-300 ease-in-out hover:scale-110" />
+          </Link>
+          <Link href={'https://pornhub.com'} target="_blank">
+            <Image src="/assets/icons/linkedin.png" alt="sample" width={30} height={30} className="cursor-pointer transition duration-300 ease-in-out hover:scale-110" />
+          </Link>
         </div>
       </div>
     </div>
