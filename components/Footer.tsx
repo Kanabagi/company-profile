@@ -44,7 +44,7 @@ const Footer = () => {
             <div>
               <p className="text-white max-w-[700px] font-thin">
                 Kanabagi is a leading website development company committed to creating exceptional online experiences. They specialize in crafting dynamic and user-friendly websites customized for each client. Their expert team employs the
-                latest technologies to deliv
+                latest technologies to deliver captivating solutions that drive results.
               </p>
               <div className="flex gap-6 mt-2">
                 <Image src="/assets/icons/facebook.png" alt="sample" width={30} height={30} />

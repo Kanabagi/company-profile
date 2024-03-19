@@ -7,6 +7,7 @@ import { Autoplay, Navigation } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import { slidesData } from '@/constants/hero';
+import Image from 'next/image';
 
 export default function Home() {
   return (
@@ -30,34 +31,31 @@ export default function Home() {
       </Swiper>
       <div className="flex flex-col">
         <div className="flex justify-around mt-20">
-          <div className="group relative cursor-pointer overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
-            <div className="h-[300px] w-[300px]">
-              <div className="h-full w-full bg-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" style={{ backgroundImage: 'url(/assets/images/coding.jpg)' }}></div>
+          <div className="group relative cursor-pointer overflow-hidden transition-shadow duration-300 ease-in-out hover:shadow-xl hover:shadow-black/30">
+            <div className="h-[300px] w-[300px] rounded-t-3xl overflow-hidden">
+              <div className="h-full w-full bg-cover transition-transform duration-500 group-hover:scale-105" style={{ backgroundImage: 'url(/assets/images/coding.jpg)' }}></div>
             </div>
-            <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
-            <div className="absolute inset-0 flex translate-y-[55%] flex-col items-center justify-center px-2  transition-all duration-500 group-hover:translate-y-[30%]">
-              <h1 className="text-3xl font-semibold text-white">Development</h1>
-              <p className="mb-3 text-justify text-md text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">We provide the highest quality website development services based on the tech stack we use.</p>
-            </div>
-          </div>
-          <div className="group relative cursor-pointer overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
-            <div className="h-[300px] w-[300px]">
-              <div className="h-full w-full bg-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" style={{ backgroundImage: 'url(/assets/images/coding.jpg)' }}></div>
-            </div>
-            <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
-            <div className="absolute inset-0 flex translate-y-[55%] flex-col items-center justify-center px-2  transition-all duration-500 group-hover:translate-y-[30%]">
-              <h1 className="text-3xl font-semibold text-white">Development</h1>
-              <p className="mb-3 text-justify text-md text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">We provide the highest quality website development services based on the tech stack we use.</p>
+            <div className="bg-gray-200/85 h-[150px] text-gray-950 pb-[20px] rounded-t-3xl absolute inset-0 flex translate-y-[250px] flex-col items-center justify-center px-2  transition-all duration-500 group-hover:translate-y-[180px]">
+              <h1 className="text-3xl font-semibold  pt-4">Development</h1>
+              <p className="mb-3 text-justify text-md  opacity-0 pb-4 transition-opacity duration-300 group-hover:opacity-100">We provide the highest quality website development services based on the tech stack we use.</p>
             </div>
           </div>
-          <div className="group relative cursor-pointer overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
-            <div className="h-[300px] w-[300px]">
-              <div className="h-full w-full bg-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" style={{ backgroundImage: 'url(/assets/images/coding.jpg)' }}></div>
+          <div className="group relative cursor-pointer overflow-hidden transition-shadow duration-300 ease-in-out hover:shadow-xl hover:shadow-black/30">
+            <div className="h-[300px] w-[300px] rounded-t-3xl overflow-hidden">
+              <div className="h-full w-full bg-cover transition-transform duration-500 group-hover:scale-105" style={{ backgroundImage: 'url(/assets/images/coding.jpg)' }}></div>
             </div>
-            <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
-            <div className="absolute inset-0 flex translate-y-[55%] flex-col items-center justify-center px-2  transition-all duration-500 group-hover:translate-y-[30%]">
-              <h1 className="text-3xl font-semibold text-white">Development</h1>
-              <p className="mb-3 text-justify text-md text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">We provide the highest quality website development services based on the tech stack we use.</p>
+            <div className="bg-gray-200/85 h-[150px] text-gray-950 pb-[20px] rounded-t-3xl absolute inset-0 flex translate-y-[250px] flex-col items-center justify-center px-2  transition-all duration-500 group-hover:translate-y-[180px]">
+              <h1 className="text-3xl font-semibold  pt-4">Development</h1>
+              <p className="mb-3 text-justify text-md  opacity-0 pb-4 transition-opacity duration-300 group-hover:opacity-100">We provide the highest quality website development services based on the tech stack we use.</p>
+            </div>
+          </div>
+          <div className="group relative cursor-pointer overflow-hidden transition-shadow duration-300 ease-in-out hover:shadow-xl hover:shadow-black/30">
+            <div className="h-[300px] w-[300px] rounded-t-3xl overflow-hidden">
+              <div className="h-full w-full bg-cover transition-transform duration-500 group-hover:scale-105" style={{ backgroundImage: 'url(/assets/images/coding.jpg)' }}></div>
+            </div>
+            <div className="bg-gray-200/85 h-[150px] text-gray-950 pb-[20px] rounded-t-3xl absolute inset-0 flex translate-y-[250px] flex-col items-center justify-center px-2  transition-all duration-500 group-hover:translate-y-[180px]">
+              <h1 className="text-3xl font-semibold  pt-4">Development</h1>
+              <p className="mb-3 text-justify text-md  opacity-0 pb-4 transition-opacity duration-300 group-hover:opacity-100">We provide the highest quality website development services based on the tech stack we use.</p>
             </div>
           </div>
         </div>
@@ -69,7 +67,7 @@ export default function Home() {
         </div>
       </div>
       <div className="flex flex-col mb-[240px]">
-        <h1 className="flex justify-center text text-5xl font-bold mb-[120px]">
+        <h1 className="flex justify-center text-5xl font-bold mb-[120px]">
           <span className="text-blue-800">Our&nbsp;</span>
           <span>Clients</span>
         </h1>
