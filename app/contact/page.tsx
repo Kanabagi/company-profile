@@ -38,11 +38,13 @@ const ContactUs = () => {
 
           <div className='flex md:flex-col gap-6 md:gap-4 flex-wrap'>
             {contactImg.map((contact) => (
-              <Link href={contact.path} className='flex gap-2 md:gap-4 group' target='blank'>
-                <Image src={contact.iconUrl} alt='' width={28} height={28} className='w-[20px] h-[20px] md:w-[28px] md:h-[28px] group-hover:rotate-12' />
-                <p className='text-[16px] md:text-[20px] group-hover:text-blue-800'>{contact.desc}
-                </p>
-              </Link>
+              <div key={contact.name}>
+                <Link href={contact.path} className='flex gap-2 md:gap-4 group' target='blank'>
+                  <Image src={contact.iconUrl} alt='' width={28} height={28} className='w-[20px] h-[20px] md:w-[28px] md:h-[28px] group-hover:rotate-12' />
+                  <p className='text-[16px] md:text-[20px] group-hover:text-blue-800'>{contact.desc}
+                  </p>
+                </Link>
+              </div>
             ))}
           </div>
         </div>
