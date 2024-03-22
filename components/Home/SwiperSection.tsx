@@ -8,7 +8,7 @@ import 'swiper/css/navigation';
 
 const SwiperSection = () => {
   return (
-    <Swiper spaceBetween={30} centeredSlides={true} autoplay={{ delay: 5000, disableOnInteraction: false }} navigation={true} modules={[Autoplay, Navigation]} className="mySwiper mb-24">
+    <Swiper spaceBetween={30} centeredSlides={true} autoplay={{ delay: 5000, disableOnInteraction: false }} navigation={true} modules={[Autoplay, Navigation]} className="mySwiper md:mb-24">
       {slidesData.map((slide, id) => (
         <SwiperSlide key={id}>
           <HeroSection {...slide} />

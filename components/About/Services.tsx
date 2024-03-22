@@ -3,10 +3,10 @@ import { serviceData } from '@/constants/data';
 
 const Services = () => {
   return (
-    <div className="flex flex-wrap justify-center lg:mt-20 mt-16 gap-y-14 gap-x-20">
+    <div className="wrapper flex flex-wrap justify-center lg:mt-20 mt-16 gap-y-14 gap-x-20">
       {serviceData.map((service, index) => (
         <div key={index} className="flex items-start gap-4">
-          <div className="flex items-center justify-center overflow-hidden lg:h-[100px] lg:w-[100px] h-[80px] w-[80px] bg-blue-700 rounded-full">
+          <div className="flex items-center justify-center overflow-hidden lg:h-[100px] lg:w-[100px] h-[80px] w-[80px] bg-blue-800 rounded-full">
             <div className="lg:w-[60px] lg:h-[60px] w-[50px] h-[50px] relative">
               <Image src={service.image} alt={service.title} fill sizes="(100vw, 100vh)" className="object-cover" />
             </div>

@@ -13,7 +13,7 @@ const Portofolio = () => {
         </span>
       </section>
 
-      <section className='wrapper flex justify-center items-center flex-wrap gap-6 my-10'>
+      <section className='wrapper flex justify-center items-center flex-wrap gap-[40px] py-[100px] md:py-0 md:pt-4 md:my-10'>
         <div className='w-[140px] h-[75px] sm:w-[200px] sm:h-[120px] md:w-[280px] md:h-[150px] bg-blue-800 rounded-[24px]'></div>
         <div className='w-[140px] h-[75px] sm:w-[200px] sm:h-[120px] md:w-[280px] md:h-[150px] bg-blue-800 rounded-[24px]'></div>
         <div className='w-[140px] h-[75px] sm:w-[200px] sm:h-[120px] md:w-[280px] md:h-[150px] bg-blue-800 rounded-[24px]'></div>
@@ -22,14 +22,14 @@ const Portofolio = () => {
         <div className='w-[140px] h-[75px] sm:w-[200px] sm:h-[120px] md:w-[280px] md:h-[150px] bg-blue-800 rounded-[24px]'></div>
       </section>
 
-      <section className='flex flex-col gap-10 min-h-screen'>
+      <section className='flex flex-col gap-10 min-h-screen mb-[200px] md:mb-[150px]'>
         <div className='wrapper'>
           <h1 className='md:text-[40px] text-[24px] sm:text-[30px] text-center font-bold'>
             <span className='text-blue-800'>Our</span> Work Process
           </h1>
         </div>
 
-        <div className='bg-blue-800 w-full py-6 sm:py-0 sm:h-[500px] flex items-center justify-center gap-6 md:gap-[80px]'>
+        <div className='bg-blue-800 w-full sm:py-0 sm:h-[500px] py-6 md:pb-0 flex items-center justify-center gap-6 md:gap-[80px]'>
           <div className='wrapper flex sm:flex-row flex-col items-center justify-center md:gap-[80px] gap-6'>
             {workProcess.map((work) => (
               <div className="group flex flex-col items-center gap-4 after:content-['-----------'] after:text-white">

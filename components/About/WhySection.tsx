@@ -6,7 +6,7 @@ const WhySection = () => {
         <span>Choose Us?</span>
       </h1>
       <section className="flex flex-col justify-center items-center bg-blue-700">
-        <div>
+        <div className="wrapper">
           <div className="flex lg:flex-row flex-col items-center justify-center py-12 lg:gap-32 gap-10">
             <h2 className="max-w-lg lg:text-5xl md:text-3xl text-2xl text-white font-bold leading-snug text-center lg:text-start">Solutions to support your business needs</h2>
             <div className="max-w-lg text-white lg:text-lg text-base px-2 lg:px-0">

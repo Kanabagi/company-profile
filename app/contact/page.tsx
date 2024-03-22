@@ -15,14 +15,14 @@ const ContactUs = () => {
         </span>
       </section>
 
-      <section className='wrapper flex flex-col md:flex-row gap-10 w-full py-10 '>
+      <section className='wrapper flex flex-col md:flex-row gap-10 w-full py-10 mb-[150px] md:mb-[200px]'>
         <div className='flex flex-col gap-4 w-full'>
           <div className='flex flex-row md:flex-col gap-2 md:gap-4'>
             <Input type='text' placeholder='Name' className='border-0 bg-[#f0f0f0] outline-offset-0 placeholder:text-gray-400 focus:border-0 focus-visible:ring-0 focus-visible:ring-offset-0 rounded-full px-6 h-[54px] text-[16px]' />
             <Input type='email' placeholder='Email' className='border-0 bg-[#f0f0f0] outline-offset-0 placeholder:text-gray-400 focus:border-0 focus-visible:ring-0 focus-visible:ring-offset-0 rounded-full px-6 h-[54px] text-[16px]' />
           </div>
           <Textarea placeholder='Message' className='border-0 bg-[#f0f0f0] outline-offset-0 placeholder:text-gray-400 focus:border-0 focus-visible:ring-0 focus-visible:ring-offset-0 rounded-[24px] px-6 py-4 text-[16px] h-[150px]' />
-          <Button className='bg-blue-800 rounded-full h-[54px]'>
+          <Button className='bg-blue-800 rounded-full h-[54px] hover:bg-blue-900'>
             Submit
           </Button>
         </div>
