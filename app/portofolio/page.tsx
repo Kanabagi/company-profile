@@ -13,7 +13,7 @@ const Portofolio = () => {
         </span>
       </section>
 
-      <section className='wrapper flex justify-center items-center flex-wrap gap-[40px] py-[100px] md:py-0 md:pt-4 md:my-10'>
+      <section className='wrapper flex justify-center items-center flex-wrap gap-[40px] py-[100px] md:py-[30px] md:pt-4 md:my-10'>
         <div className='w-[140px] h-[75px] sm:w-[200px] sm:h-[120px] md:w-[280px] md:h-[150px] bg-blue-800 rounded-[24px]'></div>
         <div className='w-[140px] h-[75px] sm:w-[200px] sm:h-[120px] md:w-[280px] md:h-[150px] bg-blue-800 rounded-[24px]'></div>
         <div className='w-[140px] h-[75px] sm:w-[200px] sm:h-[120px] md:w-[280px] md:h-[150px] bg-blue-800 rounded-[24px]'></div>
