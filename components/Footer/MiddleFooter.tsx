@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const MiddleFooter = () => {
   return (
-    <div className="wrapper gap-6 flex flex-col lg:flex-row lg:justify-between pt-6 pb-4">
+    <div className="wrapper flex flex-col lg:flex-row lg:justify-between pt-6 pb-4">
       <div className="pb-4 lg:pb-0">
         <Image src="/assets/images/logo-white.png" alt="sample" width={300} height={300} />
       </div>

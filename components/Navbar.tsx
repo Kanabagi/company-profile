@@ -12,7 +12,7 @@ const Navbar = () => {
   const pathname = usePathname()
 
   return (
-    <header className='border-b w-full bg-gray-50'>
+    <header className='border-b w-full bg-gray-50 fixed z-10'>
       <div className='wrapper flex items-center justify-between'>
         <Link href="/" className=''>
           <Image src="/assets/images/Logos.svg" alt='' width={160} height={160} />

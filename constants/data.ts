@@ -104,7 +104,7 @@ export const cardsData = [
   {
     image: '/assets/images/image3.webp',
     title: 'User Interface',
-    desc: 'Crafting intuitive interfaces for seamless user experiences.',
+    desc: 'Crafting intuitive interfaces for seamless user experiences and build with clean design.',
   },
 ];
 

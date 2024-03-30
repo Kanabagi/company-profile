@@ -10,8 +10,8 @@ const TopFooterContent = (props: TopFooterContentProps) => {
   const { image, name, children } = props;
   return (
     <div className="max-md:wrapper flex flex-row items-start gap-8">
-      <div className="lg:h-[80px] lg:w-[80px] md:h-[75px] md:w-[75px] h-[70px] w-[70px] bg-blue-800 rounded-full flex items-center justify-center overflow-hidden">
-        <div className="lg:h-[50px] lg:w-[50px] md:h-[45px] md:w-[45px] h-[40px] w-[40px] relative">
+      <div className="lg:h-[80px] lg:w-[80px] md:h-[75px] md:w-[75px] h-[60px] w-[60px] bg-blue-800 rounded-full flex items-center justify-center overflow-hidden">
+        <div className="lg:h-[50px] lg:w-[50px] md:h-[45px] md:w-[45px] h-[30px] w-[30px] relative">
           <Image src={image} alt={name} fill sizes="(100vw, 100vh)" className="object-cover" />
         </div>
       </div>

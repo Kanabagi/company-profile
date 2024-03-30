@@ -15,7 +15,7 @@ const HeroSection = (props: HeroProps) => {
       <div className="wrapper md:pt-[250px] py-24">
         <h1 className="md:text-6xl text-4xl text-blue-800 font-bold mb-4">{title}</h1>
         <h2 className="md:text-4xl text-2xl text-gray-950 max-w-[300px] mb-4">{subtitle}</h2>
-        <p className="md:text-md text-base text-gray-950 max-w-[340px]">{desc}</p>
+        <p className="md:text-lg text-base text-gray-950 max-w-[340px]">{desc}</p>
         <Button className="bg-blue-800 rounded-full md:h-[54px] mt-4 md:text-lg px-6 hover:bg-blue-900">{buttondesc}</Button>
       </div>
     </div>
